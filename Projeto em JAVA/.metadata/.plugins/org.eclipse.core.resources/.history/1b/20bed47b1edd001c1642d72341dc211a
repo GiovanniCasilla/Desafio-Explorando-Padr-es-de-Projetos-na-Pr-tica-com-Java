@@ -1,0 +1,24 @@
+package One.Digital.Inovation;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SingletonLazy lazy = SingletonLazy.getInstancia();
+		System.out.println(lazy);
+		lazy = SingletonLazy.getInstancia();
+		System.out.println(lazy);
+		
+		SingletonEager Eager = SingletonEager.getInstancia();
+		System.out.println(Eager);
+		Eager = SingletonEager.getInstancia();
+		System.out.println(Eager);
+		
+		SingletonLazyHolder lazyholder = SingletonLazyHolder.getInstancia();
+		System.out.println(lazyholder);
+		lazyholder = SingletonLazyHolder.getInstancia();
+		System.out.println(lazyholder);
+		
+	}
+
+}

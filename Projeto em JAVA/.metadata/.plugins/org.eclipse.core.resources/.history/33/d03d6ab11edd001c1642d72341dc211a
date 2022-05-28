@@ -1,0 +1,10 @@
+package Singleton;
+
+public class Snippet {
+	public static void main(String[] args) {
+		/PadroesObjetosJava/src/One/Digital/Inovation/SingletonEager.java
+		/PadroesObjetosJava/src/One/Digital/Inovation/SingletonLazy.java
+		/PadroesObjetosJava/src/One/Digital/Inovation/SingletonLazyHolder.java
+	}
+}
+

@@ -1,0 +1,5 @@
+package OneInovation.DioDesafio.strategy;
+
+public interface Comportamento {
+
+}
